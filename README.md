@@ -1,5 +1,5 @@
 > [!NOTE]
-> This project was built via "vibe coding" as a foundational architecture exercise, prioritizing correctness, readability, and industry-aligned structure over abstraction for its own sake. 
+> This project was built via "vibe coding" as a foundational architecture exercise, prioritizing correctness, readability. 
 > The intention is to familiarize with program architecture in its various forms to build intuition and independent programming capabilities, without the help of IDE suggestion tools.
 > All functionality is operational and verifiable via saved artifacts.
 
@@ -117,6 +117,7 @@ python -m src.load_class_vibe
 
 
 All artifacts will be generated automatically if directories do not exist.
+
 
 
 
