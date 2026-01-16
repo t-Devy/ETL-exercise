@@ -20,9 +20,13 @@ The focus is on clarity, architectural separation, and artifact-driven validatio
 The mock dataset represents College & Career Readiness indicators, including:
 
 `Academic performance` (GPA, SAT scores)
+
 `Engagement metrics` (attendance, CTE hours)
+
 `Experiential learning` (internships)
+
 `Psychosocial variables` (self-efficacy, clarity of career interests)
+
 The target variable is a synthetic `readiness score`, suitable for regression modeling.
 
 # Pipeline Overview
@@ -50,7 +54,9 @@ The target variable is a synthetic `readiness score`, suitable for regression mo
 ### Artifacts produced:
 
 NumPy arrays (`X_train`, `X_val`, `y_train`, `y_val`)
+
 Fitted scaler (`scaler.pkl`)
+
 Feature schema (`feature_columns.json`)
 
 ## 3. Load (load_class_vibe.py)
@@ -82,13 +88,21 @@ Instead, it emphasizes:
 ## This is the same mental model used in:
 
 ML platform teams
+
 Feature pipelines
+
 Model training infrastructure
+
 Next Natural Extensions (Not Implemented Here)
+
 Training loop (train.py)
+
 Model checkpointing
+
 Inference pipeline
+
 Experiment tracking
+
 Dataset versioning
 
 # How to Run End-to-End
