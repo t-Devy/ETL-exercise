@@ -103,3 +103,4 @@ python -m src.load_class_vibe
 All artifacts will be generated automatically if directories do not exist.
 
 
+
