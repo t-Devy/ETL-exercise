@@ -1,0 +1,14 @@
+{
+  "batch_size": 32,
+  "num_workers": 0,
+  "shuffle_train": false,
+  "num_batches": 2,
+  "example_batch_X_shape": [
+    32,
+    8
+  ],
+  "example_batch_y_shape": [
+    32,
+    1
+  ]
+}
