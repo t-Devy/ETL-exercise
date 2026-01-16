@@ -110,11 +110,14 @@ Dataset versioning
 From the project root:
 
 python -m src.extract_class_vibe
+
 python -m src.transform_class_vibe
+
 python -m src.load_class_vibe
 
 
 All artifacts will be generated automatically if directories do not exist.
+
 
 
 
