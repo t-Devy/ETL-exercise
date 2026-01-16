@@ -15,35 +15,6 @@ The focus is on clarity, architectural separation, and artifact-driven validatio
 - Mirror industry-style project structure (paths, artifacts, modular steps)
 - Produce verifiable outputs at every stage (no black boxes)
 
-## Project Structure
-
-ETL-exercise/
-├── src/
-│   ├── etl_pipeline_abstract.py   # Abstract, one-file ETL pipeline
-│   ├── extract_class_vibe.py      # Extract step (CSV → DataFrame → artifact)
-│   ├── transform_class_vibe.py    # Transform step (split, scale, feature prep)
-│   ├── load_class_vibe.py         # Load step (PyTorch Dataset/DataLoader)
-│   └── paths.py                   # Centralized artifact & directory routing
-│
-├── data/
-│   ├── ccr_mock.csv               # Mock College & Career Readiness dataset
-│   └── ccr_raw.pkl                # Extracted raw artifact
-│
-├── artifacts/
-│   ├── transform_artifacts/
-│   │   ├── X_train.npy
-│   │   ├── X_val.npy
-│   │   ├── y_train.npy
-│   │   ├── y_val.npy
-│   │   ├── scaler.pkl
-│   │   └── feature_columns.json
-│   └── loader_artifacts/
-│       ├── train_loader_info.json
-│       └── val_loader_info.json
-│
-├── .gitignore
-└── README.md
-
 ## Dataset
 
 The mock dataset represents College & Career Readiness indicators, including:
@@ -130,4 +101,5 @@ python -m src.load_class_vibe
 
 
 All artifacts will be generated automatically if directories do not exist.
+
 
